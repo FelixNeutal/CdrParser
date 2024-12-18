@@ -1,0 +1,57 @@
+package DAO;
+
+import DTO.Cdr;
+import DTO.OsvCdr;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+import java.util.List;
+
+public class OsvCdrDao {
+    SessionFactory sessionFactory = null;
+
+    public OsvCdrDao() {
+        final StandardServiceRegistry registry = new StandardServiceRegistryBuilder().build();
+        try {
+            sessionFactory = new MetadataSources(registry).
+                    addAnnotatedClass(OsvCdr.class)
+                    .buildMetadata()
+                    .buildSessionFactory();
+        } catch (Exception e) {
+            System.out.println("\n\nERRORRRRR!!!!\n\n");
+            e.printStackTrace();
+            StandardServiceRegistryBuilder.destroy(registry);
+        }
+    }
+
+    public void saveData(List<Cdr> data) {
+        try (Session session = sessionFactory.openSession()) {
+            session.beginTransaction();
+            for (Cdr cdr : data) {
+                session.persist(cdr);
+            }
+            session.getTransaction().commit();
+        }
+    }
+
+    public void saveBatchData(List<Cdr> data) {
+	System.out.println("sessionFactory is null = " + sessionFactory == null);
+        try (Session session = sessionFactory.openSession()) {
+            Transaction tx = session.beginTransaction();
+		
+            for (int i = 0; i < data.size(); i++) {
+                if (i % session.getJdbcBatchSize() == 0) {
+                    session.flush();
+                    session.clear();
+                }
+            }
+            tx.commit();
+        } catch (NullPointerException e) {
+		System.out.println("Error occurred in saveBatchData");
+	}
+    }
+}

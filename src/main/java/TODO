@@ -1,0 +1,4 @@
+Clean getting schema methods, right now osv and acme both use getAcmeSchema method. That is stupid.
+Schema thing is done bad. hasNext doesn't count last element in.
+Set called number equal to routing number
+Pricing goes according to b number. Area code in b number shows if pricing is necessary.

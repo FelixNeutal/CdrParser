@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+        </Console>-->
+        <File name="SftpLog" fileName="logs/sftp.log">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="AcmeParserLog" fileName="logs/acmeParser.log">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="OsvParserLog" fileName="logs/osvParser.log">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="sftp" level="info" additivity="false">
+            <AppenderRef ref="SftpLog"/>
+        </Logger>
+        <Logger name="acmeParser" level="info" additivity="false">
+            <AppenderRef ref="AcmeParserLog"/>
+        </Logger>
+        <Logger name="osvParser" level="info" additivity="false">
+            <AppenderRef ref="OsvParserLog"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

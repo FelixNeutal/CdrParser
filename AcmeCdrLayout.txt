@@ -1,0 +1,210 @@
+CSV Position, Attribute Name, Vendor, CDR Number
+1, Accounting Status, none, 40
+2, NAS IP Address, none, 4
+3, NAS Port, none, 5
+4, Accounting Session ID, none, 44
+5, Ingress Session ID, ACME, 3
+6, Egress Session ID, ACME, 4
+7, Session Protocol Type, ACME, 43
+8, Session-Forked-Call-Id, ACME, 171
+9, Generic ID, ACME, 40
+10, Calling Station ID, none, 31
+11, Called Station ID, none, 30
+12, Accounting Termination Cause, none, 49
+13, Accounting Session Time, none, 46
+14, CISCO Setup Time, CISCO, 25
+15, CISCO Connect Time, CISCO, 28
+16, CISCO Disconnect Time, CISCO, 29
+17, CISCO Disconnect Cause, CISCO, 30
+18, Egress Network Interface ID, ACME, 139
+19, Egress Vlan Tag Value, ACME, 140
+20, Ingress Network Interface ID, ACME, 137
+21, Ingress Vlan Tag Value, ACME, 138
+22, Egress Realm, ACME, 42
+23, Ingress Realm, ACME, 41
+24, Flow Identifier, ACME, 1
+25, Flow Type, ACME, 2
+26, Flow Input Realm, ACME, 10
+27, Flow Input Src Addr, ACME, 11
+28, Flow Input Src Port, ACME, 12
+29, Flow Input Dest Address, ACME, 13
+30, Flow Input Dest Port, ACME, 14
+31, Flow Output Realm, ACME, 20
+32, Flow Output Src Address, ACME, 21
+33, Flow Output Src Port, ACME, 22
+34, Flow Output Dest Addr, ACME, 23
+35, Flow Output Dest Port, ACME, 24
+36, RTCP Calling Packets Lost, ACME, 32
+37, RTCP Calling Avg Jitter (msec), ACME, 33
+38, RTCP Calling Avg Latency (msec), ACME, 34
+39, RTCP Calling Max Jitter (msec), ACME, 35
+41, RTP Calling Packets Lost, ACME, 37
+40, RTCP Calling Max Latency (msec), ACME, 36
+42, RTP Calling Avg Jitter (msec), ACME, 38
+43, RTP Calling Max Jitter (msec), ACME, 39
+44, RTP Calling Octets, ACME, 28
+45, RTP Calling Packets, ACME, 29
+46, Calling R-Factor, ACME, 151
+47, Calling MOS, ACME, 152
+48, Flow Identifier, ACME, 78
+49, Flow Type, ACME, 79
+50, Flow Input Realm, ACME, 80
+51, Flow Input Src Addr, ACME, 81
+52, Flow Input Src Port, ACME, 82
+53, Flow Input Dest Address, ACME, 83
+54, Flow Input Dest Port, ACME, 84
+55, Flow Output Realm, ACME, 85
+56, Flow Output Src Address, ACME, 86
+57, Flow Output Src Port, ACME, 87
+58, Flow Output Dest Addr, ACME, 88
+59, Flow Output Dest Port, ACME, 89
+60, RTCP Called Packets Lost, ACME, 46
+61, RTCP Called Avg Jitter (msec), ACME, 47
+62, RTCP Called Avg Latency (msec), ACME, 48
+63, RTCP Called Max Jitter (msec), ACME, 49
+64, RTCP Called Max Latency (msec), ACME, 50
+65, RTP Called Packets Lost, ACME, 51
+66, RTP Called Avg Jitter (msec), ACME, 52
+67, RTP Called Max Jitter (msec), ACME, 53
+68, RTP Called Octets, ACME, 44
+69, RTP Called Packets, ACME, 45
+70, Called R-Factor, ACME, 153
+71, Called MOS, ACME, 154
+72, Flow Identifier, ACME, 90
+73, Flow Type, ACME, 91
+74, Flow Input Realm, ACME, 92
+75, Flow Input Src Addr, ACME, 93
+76, Flow Input Src Port, ACME, 94
+77, Flow Input Dest Address, ACME, 95
+78, Flow Input Dest Port, ACME, 96
+79, Flow Output Realm, ACME, 97
+80, Flow Output Src Address, ACME, 98
+81, Flow Output Src Port, ACME, 99
+82, Flow Output Dest Addr, ACME, 100
+83, Flow Output Dest Port, ACME, 101
+84, RTCP Calling Packets Lost, ACME, 104
+85, RTCP Calling Avg Jitter (msec), ACME, 105
+86, RTCP Calling Avg Latency (msec), ACME, 106
+87, RTCP Calling Max Jitter (msec), ACME, 107
+88, RTCP Calling Max Latency (msec), ACME, 108
+89, RTP Calling Packets Lost, ACME, 109
+90, RTP Calling Avg Jitter (msec), ACME, 110
+91, RTP Calling Max Jitter (msec), ACME, 111
+92, RTP Calling Octets, ACME, 102
+93, RTP Calling Packets, ACME, 103
+94, Flow Identifier, ACME, 112
+95, Flow Type, ACME, 113
+96, Flow Input Realm, ACME, 114
+97, Flow Input Src Addr, ACME, 115
+98, Flow Input Src Port, ACME, 116
+99, Flow Input Dest Address, ACME, 117
+100, Flow Input Dest Port, ACME, 118
+101, Flow Output Realm, ACME, 119
+102, Flow Output Src Address, ACME, 120
+103, Flow Output Src Port, ACME, 121
+104, Flow Output Dest Addr, ACME, 122
+105, Flow Output Dest Port, ACME, 123
+106, RTCP Called Packets Lost, ACME, 126
+107, RTCP Called Avg Jitter (msec), ACME, 127
+108, RTCP Called Avg Latency (msec), ACME, 128
+109, RTCP Called Max Jitter (msec), ACME, 129
+110, RTCP Called Max Latency (msec), ACME, 130
+111, RTP Called Packets Lost, ACME, 131
+112, RTP Called Avg Jitter (msec), ACME, 132
+113, RTP Called Max Jitter (msec), ACME, 133
+114, RTP Called Octets, ACME, 124
+115, RTP Called Packets, ACME, 125
+116, Charging Vector ICID, ACME, 54
+117, Charging Function Address, ACME, 55
+118, Firmware Version, ACME, 56
+119, Local timezone, ACME, 57
+120, Post Dial Delay (msec), ACME, 58
+121, Primary routing Number, ACME, 64
+122, Originating Trunk Group, ACME, 65
+123, Terminating Trunk Group, ACME, 66
+124, Originating Trunk Context, ACME, 67
+125, Terminating Trunk Context, ACME, 68
+126, P Asserted ID, ACME, 69
+127, Ingress Local Address, ACME, 74
+128, Ingress Remote Address, ACME, 75
+129, Egress Local Address, ACME, 76
+130, Egress Remote Address, ACME, 77
+131, SIP DIVERSION, ACME, 70
+132, Session Disposition, ACME, 60
+133, Disconnect Initiator, ACME, 61
+134, Disconnect Cause, ACME, 62
+135, Sip Status Code, ACME, 71
+136, Egress Routing Number, ACME, 134
+137, Ingress RPH, ACME, 135
+138, Egress RPH, ACME, 136
+139, refer call transfer ID, ACME, 141
+140, Custom VSA 200, ACME, 200
+141, Custom VSA 201, ACME, 201
+142, Custom VSA 202, ACME, 202
+143, Custom VSA 203, ACME, 203
+144, Custom VSA 204, ACME, 204
+145, Custom VSA 205, ACME, 205
+146, Custom VSA 206, ACME, 206
+147, Custom VSA 207, ACME, 207
+148, Custom VSA 208, ACME, 208
+149, Custom VSA 209, ACME, 209
+150, Custom VSA 210, ACME, 210
+151, Custom VSA 211, ACME, 211
+152, Custom VSA 212, ACME, 212
+153, Custom VSA 213, ACME, 213
+154, Custom VSA 214, ACME, 214
+155, Custom VSA 215, ACME, 215
+156, Custom VSA 216, ACME, 216
+157, Custom VSA 217, ACME, 217
+158, Custom VSA 218, ACME, 218
+159, Custom VSA 219, ACME, 219
+160, Custom VSA 220, ACME, 220
+161, Custom VSA 221, ACME, 221
+162, Custom VSA 222, ACME, 222
+163, Custom VSA 223, ACME, 223
+164, Custom VSA 224, ACME, 224
+165, Custom VSA 225, ACME, 225
+166, Custom VSA 226, ACME, 226
+167, Custom VSA 227, ACME, 227
+168, Custom VSA 228, ACME, 228
+169, Custom VSA 229, ACME, 229
+170, Custom VSA 230, ACME, 230
+171, Calling-Media-Stop-Time, ACME, 231
+172, Called-Media-Stop-Time, ACME, 232
+173, Calling-Media-Stop-Time, ACME, 233
+174, Called-Media-Stop-Time, ACME, 234
+175, Flow Media Type, ACME, 142
+176, Flow Media Type, ACME, 143
+177, Flow Media Type, ACME, 144
+178, Flow Media Type, ACME, 145
+179, RTP Calling Octets Transmitted, ACME, 240
+180, RTP Calling Packets Transmitted, ACME, 241
+181, RTP Called Octets Transmitted, ACME, 242
+182, RTP Called Packets Transmitted, ACME, 243
+183, RTP Calling Octets Transmitted, ACME, 244
+184, RTP Calling Packets Transmitted, ACME, 245
+185, RTP Calling Octets Transmitted, ACME, 244
+186, RTP Calling Packets Transmitted, ACME, 245
+187, MSRP Called Octets, ACME, 249
+188, MSRP Called Packets, ACME, 249
+189, MSRP Called Octets Transmitted, ACME, 249
+190, MSRP Called Packets Transmitted, ACME, 249
+191, MSRP Calling Octets, ACME, 249
+192, MSRP Calling Packets, ACME, 249
+193, MSRP Calling Octets Transmitted, ACME, 249
+194, MSRP Calling Packets Transmitted, ACME, 249
+195, PGW-IP Address, ACME, 249
+196, SGW-IP Address, ACME, 249
+197, ORIG-IOI, ACME, 249
+198, TERM-IOI, ACME, 249
+199, IMEI, ACME, 249
+200, Node Functionality, ACME, 249
+201, History Info, ACME, 250
+202, P-Visited Network ID, ACME, 251
+203, IMSI, ACME, 252
+204, Access-Network-Information, ACME, 248
+205, CDR Sequence Number, ACME, 59
+206, Stir-Signed-Request, ACME, 249
+207, Stir-Signed-Request-Exception-Id, ACME, 249
+208, Stir-Verified-Request, ACME, 249
+209, Stir-Verified-Request-Exception-Id, ACME, 249
